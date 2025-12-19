@@ -16,12 +16,12 @@ export default function Login(){
                     </div>
 
                     <div>
-                        <label classsName="text-sm font-medium">Senha</label>
+                        <label className="text-sm font-medium">Senha</label>
                         <input
                         type="password"
                         className="mt-1 w-full rounded-lg border border-slate-300 px-3 py-2 outline-none focus:ring-2 focus:ring-slate-400"
                         placeholder="*******"
-                        autocomplete="current-password"
+                        autoComplete="current-password"
                         />
                     </div>
 
