@@ -14,8 +14,8 @@ Atualmente, o projeto foca na construção de uma experiência de usuário (Fron
 
 ### 🎯 Funcionalidades Principais (Atuais e Planejadas)
 
-- [x] **Cadastro de Pacientes:** Interface para registro de dados pessoais e de contato.
-- [x] **Listagem de Pacientes:** Visualização rápida e busca de pacientes ativos.
+- [ ] **Cadastro de Pacientes:** Interface para registro de dados pessoais e de contato.
+- [ ] **Listagem de Pacientes:** Visualização rápida e busca de pacientes ativos.
 - [ ] **Registro de Sessão:** Editor para anotações de evolução clínica (anamnese e diário).
 - [ ] **Histórico:** Linha do tempo com as sessões anteriores.
 - [ ] **Responsividade:** Acesso via desktop e tablets.
