@@ -1,4 +1,4 @@
-# Psi-Docs 🧠
+# Psi-Docs
 
 > Sistema de registro e acompanhamento clínico para psicólogos.
 
@@ -12,7 +12,7 @@
 
 Atualmente, o projeto foca na construção de uma experiência de usuário (Front-end) fluida e intuitiva, preparando o terreno para futuras integrações com serviços de backend.
 
-### 🎯 Funcionalidades Principais (Atuais e Planejadas)
+### Funcionalidades Principais (Atuais e Planejadas)
 
 - [ ] **Cadastro de Pacientes:** Interface para registro de dados pessoais e de contato.
 - [ ] **Listagem de Pacientes:** Visualização rápida e busca de pacientes ativos.
@@ -20,7 +20,7 @@ Atualmente, o projeto foca na construção de uma experiência de usuário (Fron
 - [ ] **Histórico:** Linha do tempo com as sessões anteriores.
 - [ ] **Responsividade:** Acesso via desktop e tablets.
 
-## 🚀 Tecnologias Utilizadas
+## Tecnologias Utilizadas
 
 Este projeto foi desenvolvido utilizando as seguintes tecnologias:
 
