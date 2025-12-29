@@ -1,10 +1,10 @@
-export default function PatientView() {
+export default function PatientRegistrationView() {
   return (
     <div className="min-h-screen bg-slate-50 px-4 py-6 sm:px-8 sm:py-10">
       <div className="mx-auto w-full max-w-2xl px-4 py-8 sm:px-6 lg:px-8">
         <div className="rounded-xl bg-white p-6 shadow-sm sm:p-8">
           <header className="mb-6">
-            <h1 className="text-sm font-semibold uppercase tracking-wide text-slate-900">
+            <h1 className="text-medium font-semibold uppercase tracking-wide text-slate-900">
               Cadastro de paciente
             </h1>
           </header>

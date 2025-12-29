@@ -1,11 +1,14 @@
-//import { useState } from 'react'
-//import reactLogo from './assets/react.svg'
-//import viteLogo from '/vite.svg'
-//import './App.css'
-import PatientView from "./pages/PatientView"
+import { BrowserRouter, Routes, Route } from "react-router-dom"
+import PatientListView from "./pages/PatientListView"
+import PatientRegistrationView from "./pages/PatientRegistrationView"
 
 export default function App() {
   return (
-    <PatientView />
+    <BrowserRouter>
+      <Routes>
+        <Route path="/patients" element={<PatientListView />} />
+        <Route path="/patient/register" element={<PatientRegistrationView />} />
+      </Routes>
+    </BrowserRouter>
   )
 }
