@@ -1,16 +1,28 @@
-# React + Vite
+# Psi-Docs
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+> Sistema de registro e acompanhamento clínico para psicólogos.
 
-Currently, two official plugins are available:
+![Status do Projeto](https://img.shields.io/badge/Status-Em_Desenvolvimento-yellow)
+![React](https://img.shields.io/badge/React-20232A?style=flat&logo=react&logoColor=61DAFB)
+![Vite](https://img.shields.io/badge/Vite-646CFF?style=flat&logo=vite&logoColor=white)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 📖 Sobre o Projeto
 
-## React Compiler
+**Psi-Docs** é uma aplicação web focada em facilitar a rotina de psicólogos clínicos. O objetivo é substituir prontuários de papel e planilhas desconexas por uma interface unificada, segura e ágil para o cadastro de pacientes e registro de evoluções terapêuticas.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+Atualmente, o projeto foca na construção de uma experiência de usuário (Front-end) fluida e intuitiva, preparando o terreno para futuras integrações com serviços de backend.
 
-## Expanding the ESLint configuration
+### Funcionalidades Principais (Atuais e Planejadas)
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- [ ] **Cadastro de Pacientes:** Interface para registro de dados pessoais e de contato.
+- [ ] **Listagem de Pacientes:** Visualização rápida e busca de pacientes ativos.
+- [ ] **Registro de Sessão:** Editor para anotações de evolução clínica (anamnese e diário).
+- [ ] **Histórico:** Linha do tempo com as sessões anteriores.
+- [ ] **Responsividade:** Acesso via desktop e tablets.
+
+## Tecnologias Utilizadas
+
+Este projeto foi desenvolvido utilizando as seguintes tecnologias:
+
+* **[React](https://reactjs.org/)** - Biblioteca para construção da interface.
+* **[Vite](https://vitejs.dev/)** - Build tool para desenvolvimento rápido.
