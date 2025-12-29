@@ -20,7 +20,7 @@ export default function PatientListView() {
   }, [search]);
 
   return (
-    <div className="min-h-screen bg-slate-50 px-4 py-6 sm:px-8 sm:py-10">
+    <div className="min-h-screen bg-slate-50 px-4 sm:px-8 sm:py-10">
         <div className="mx-auto w-full max-w-3xl px-4 py-8 sm:px-6 lg:px-8">
             <div className="rounded-xl bg-white p-6 shadow-sm sm:p-8">
                 <header className="mb-6 flex flex-col gap-3 sm:flex-row sm:items-center sm:justify-between">
