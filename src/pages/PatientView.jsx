@@ -53,7 +53,7 @@ export default function PatientView() {
               type="tel"
               inputMode="tel"
               className="mt-1 w-full rounded-lg border border-slate-300 px-3 py-2 text-base outline-none focus:ring-2 focus:ring-slate-400"
-              placeholder="Nome e telefone"
+              placeholder="Telefone"
               autoComplete="tel"
             />
           </div>
@@ -62,8 +62,8 @@ export default function PatientView() {
             <label className="text-sm font-medium text-slate-700">
               Endereço
             </label>
-              <div className="grid-cols-2 gap-3 text-xs text-slate-500">
-                <label>
+              <div className="grid grid-cols-2 gap-3 text-slate-500">
+                <label className="text-xs">
                   Rua
                 </label>
                 <input
@@ -72,7 +72,7 @@ export default function PatientView() {
                   placeholder="Rua, Logradouro, Avenida..."
                   className="mt-1 w-full rounded-lg border border-slate-300 px-3 py-2 text-base outline-none focus:ring-2 focus:ring-slate-400"
                 />
-                <label>
+                <label className="text-xs">
                   Número
                 </label>
                 <input
@@ -81,7 +81,7 @@ export default function PatientView() {
                   placeholder="Número"
                   className="mt-1 w-full rounded-lg border border-slate-300 px-3 py-2 text-base outline-none focus:ring-2 focus:ring-slate-400"
                 />
-                <label className="text-xs text-slate-500">
+                <label className="text-xs">
                   Bairro
                 </label>
                 <input
@@ -91,8 +91,8 @@ export default function PatientView() {
                   className="mt-1 w-full rounded-lg border border-slate-300 px-3 py-2 text-base outline-none focus:ring-2 focus:ring-slate-400"
                 />
               </div>
-              <div className="grid-cols-2 gap-3 text-xs text-slate-500">
-                <label>
+              <div className="grid grid-cols-2 gap-4 text-slate-500">
+                <label className="text-xs">
                   Cidade
                 </label>
                 <input
@@ -101,7 +101,7 @@ export default function PatientView() {
                   placeholder="Cidade"
                   className="mt-1 w-full rounded-lg border border-slate-300 px-3 py-2 text-base outline-none focus:ring-2 focus:ring-slate-400"
                 />
-                <label>
+                <label className="text-xs">
                   Estado
                 </label>
                 <input
